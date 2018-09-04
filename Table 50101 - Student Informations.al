@@ -26,10 +26,7 @@ table 50101 "Student Informations"
             Clustered = true;
         }
     }
-    [IntegrationEvent(true,true)]
-    local procedure OnInsertStudentInformations();
-    begin
-    end;
+
 
 
     
@@ -53,6 +50,11 @@ table 50101 "Student Informations"
     begin
         
     end;
+    [IntegrationEvent(true,true)]
+    local procedure OnInsertStudentInformations();
+    begin
+    end;
+
     var
     NameTxt : Text [80];
 }

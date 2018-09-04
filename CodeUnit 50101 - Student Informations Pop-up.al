@@ -1,5 +1,10 @@
 codeunit 50101 "Student Informations Pop-up"
 {
+    trigger OnRun()
+    begin
+
+    end;
+
     [EventSubscriber(ObjectType::Table, 50101, 'OnInsertStudentInformations', '', false, false)]
     local procedure DropPupup(sender: Record "Student Informations"; NameTxt: Text[80])
     begin
