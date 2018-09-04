@@ -1,0 +1,23 @@
+{
+  "id": "39a27aae-984d-44fe-ae32-23594620cd1d",
+  "name": "Event Training",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "showMyCode": true,
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.12925.0",
+  "application": "11.0.22292.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
